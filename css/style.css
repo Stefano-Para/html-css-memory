@@ -96,5 +96,10 @@ h1 {
 }
 
 #due:hover {
-
+    background: url(../img/noun_Bicycle_3134821.png);
+    background-color: white;
+    padding: 10px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 10px;
 }
