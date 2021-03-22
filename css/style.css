@@ -9,10 +9,9 @@ body {
     background: #ADD8E6;
 }
 main {
-    height: 600px;
-    width: 60%;
+    width: 800px;
     margin: 10px auto;
-    background-color: red;
+    /* background-color: red; */
 }
 
 /* texts  */
@@ -29,53 +28,61 @@ h1 {
 
 /* righe  */
 .row {
-    width: 70%;
-    margin: 0px auto;
-    height: 33.3%;
+    height: 200px;
 }
 
 .first {
-    background-color: black;
+    /* background-color: black; */
     position: relative; 
 }
 
 .second {
-    background-color: blue;
+    /* background-color: blue; */
+    position: relative;
 }
 
 .third {
-    background-color: violet;
+    /* background-color: violet; */
+    position: relative;
 }
 
 /* card che definiscono colonne  */
 .cards {
-    padding: 5px;
-    width: 25%;
-    height: 100%;
+    margin: 0px 2.5% 0px 2.5%;
+    width: 20%;
+    height: 90%;
     background-color: white;
-    background-image: ;
+    background-image: url(../img/pattern.png);
+    background-size: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    box-shadow: 1px 2px 5px black;
 }
+/* come si rende l'effetto di tridimensionalità nel caso? con z index?  */
 
-#uno {
+/* prima RIGA  */
+.one {
     position: absolute;
     top: 0px;
     left: 0%;
 }
 
-#due {
+.two {
     position: absolute;
     top: 0px;
     left: 25%;
 }
 
-#tre {
+.three {
     position: absolute;
     top: 0px;
     left: 50%;
 }
 
-#quattro {
+.four {
     position: absolute;
     top: 0px;
     left: 75%;
 }
+
+/* seconda riga  */
