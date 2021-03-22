@@ -9,7 +9,7 @@ body {
     background: #ADD8E6;
 }
 main {
-    width: 800px;
+    width: 50%;
     margin: 10px auto;
     /* background-color: red; */
 }
@@ -25,31 +25,10 @@ h1 {
 /* Come si fa a fare border su testo se non usando le shadow? */
 
 /* main  */
-
-/* righe  */
-.row {
-    height: 200px;
-}
-
-.first {
-    /* background-color: black; */
-    position: relative; 
-}
-
-.second {
-    /* background-color: blue; */
-    position: relative;
-}
-
-.third {
-    /* background-color: violet; */
-    position: relative;
-}
-
-/* card che definiscono colonne  */
-.cards {
-    margin: 0px 2.5% 0px 2.5%;
-    width: 20%;
+.card {
+    margin: 5px 2%;
+    float: left;
+    width: 21%;
     height: 90%;
     background-color: white;
     background-image: url(../img/pattern.png);
@@ -58,48 +37,19 @@ h1 {
     border-radius: 15px;
     box-shadow: 1px 2px 5px black;
 }
+
+
+/* carte singole  */
+.card img {
+    width: 100%;
+    /* visibility: hidden; */
+}
+
+.card p {
+    /* display: none; */
+    text-align: center;
+    
+}
+
+
 /* come si rende l'effetto di tridimensionalità nel caso? con z index?  */
-
-/* Rows  */
-.one {
-    position: absolute;
-    top: 0px;
-    left: 0%;
-}
-
-.two {
-    position: absolute;
-    top: 0px;
-    left: 25%;
-}
-
-.three {
-    position: absolute;
-    top: 0px;
-    left: 50%;
-}
-
-.four {
-    position: absolute;
-    top: 0px;
-    left: 75%;
-}
-
-/* hovers "random " */
-#uno:hover {
-    background: url(../img/noun_air_balloon_3134741.png);
-    background-color: white;
-    padding: 10px;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    background-position: 10px;
-}
-
-#due:hover {
-    background: url(../img/noun_Bicycle_3134821.png);
-    background-color: white;
-    padding: 10px;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    background-position: 10px;
-}
