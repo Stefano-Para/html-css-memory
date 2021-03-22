@@ -1,5 +1,26 @@
 /* common  */
+* {
+    Box-sizing: border-box;
+    Margin: 0;
+    Padding: 0;
+}
 body {
     font-family: 'Nerko One', cursive;
-    background: red;
+    background: #ADD8E6;
 }
+main {
+    height: 990px;
+    width: 70%;
+    margin: 10px auto;
+    background-color: red;
+}
+
+/* texts  */
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+}
+/* Come si fa a fare border su testo se non usando le shadow? */
