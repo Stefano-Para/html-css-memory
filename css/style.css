@@ -60,7 +60,7 @@ h1 {
 }
 /* come si rende l'effetto di tridimensionalità nel caso? con z index?  */
 
-/* prima RIGA  */
+/* Rows  */
 .one {
     position: absolute;
     top: 0px;
@@ -85,4 +85,16 @@ h1 {
     left: 75%;
 }
 
-/* seconda riga  */
+/* hovers "random " */
+#uno:hover {
+    background: url(../img/noun_air_balloon_3134741.png);
+    background-color: white;
+    padding: 10px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+#due:hover {
+
+}
